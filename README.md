@@ -7,12 +7,17 @@
  Screen size: 3000x2000
  
  Install: Easy make USB Install Catalina-Bigsur-Monterey and mount EFI after this copy EFI folder in this. After install complete boot in Mac OS and used OpencoConfig mout EFI Internal HD and copy EFI folder to this and reboot
+ 
+ <img width="1800" alt="Screen Shot 2022-02-23 at 15 09 43" src="https://user-images.githubusercontent.com/100263269/155281660-aae24148-f79b-4c86-811f-a3dcc8237e2a.png">
+
 
 1) DRIVER GRAPHICS:
 
+All most laptop Skylake  and real Macbookpro13,1 used FB 19160000 but why Skylake Surfacebook and Surfacepro 4 used ig-platform-id is 0x59160000?
+
 Search many tutorial for Surfacebook and Surface pro 4, i see all used Frambuffer 0x59160000 Kaby Lake system, my system is Skylake, what? in Catalina with 0x59160000 KB, graphic work norman, but in Bigsur and Monterey have problem view Youtube and Video file frezzee, system not Stanbility, i find this new Flatform ID Skylake work verygood on my surfacebook (and surfacepro 4)
 
-The ig-platform-id is 0x59160000: 
+The ig-platform-id is 0x59160000: found on intruction on Surface pro 4 and Surfacebook 1
 
 ID: 59160000, STOLEN: 34 MB, FBMEM: 0 bytes, VRAM: 1536 MB, Flags: 0x00000B0B
 TOTAL STOLEN: 35 MB, TOTAL CURSOR: 1 MB (1572864 bytes), MAX STOLEN: 103 MB, MAX OVERALL: 104 MB (109588480 bytes)
@@ -53,9 +58,12 @@ Mobile: 1, PipeCount: 3, PortCount: 3, FBMemoryCount: 3
 
 STOLEN: 57 MB, FBMEM: 0 bytes
 
-DVMT pre of Surfacebook 32mb, I add maximum Stolen 30mb if >32mb will panic system, you can see:
+DVMT pre of Surfacebook 32mb, I add maximum Stolen 30mb,if >32mb will panic system, you can see:
 
 <img width="662" alt="Screen Shot 2022-02-23 at 15 05 44" src="https://user-images.githubusercontent.com/100263269/155281223-b221a607-fd1c-4f0a-a4d9-b62ac9f1b59f.png">
 
-Work Great in Skylake system no freezee, no glit in Hidpi, very stanbility
+Work Great in Skylake system no freezee, no glit in Hidpi, very stanbility in Catalina, Bigsur and Monterey
 
+<img width="597" alt="Screen Shot 2022-02-23 at 15 15 35" src="https://user-images.githubusercontent.com/100263269/155282388-f74943fd-0047-4f64-9a80-c3d77b52fde3.png">
+
+2) DRIVER BATTERY
