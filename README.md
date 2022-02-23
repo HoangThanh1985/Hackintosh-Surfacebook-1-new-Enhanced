@@ -90,10 +90,30 @@ AUto Dim when unplug charg and Low Power mode enable
 
 <img width="722" alt="Screen Shot 2022-02-23 at 15 43 23" src="https://user-images.githubusercontent.com/100263269/155286060-033ac748-11d2-4b73-befd-985403ad2b91.png">
 
+For monitor temp cpu, ssd, graphic: install Intel Power gadget and install Istatmenu
+
+<img width="319" alt="Screen Shot 2022-02-23 at 15 53 42" src="https://user-images.githubusercontent.com/100263269/155287466-91640a7f-e326-4619-8028-124a7f8e8793.png">
 
 
+5) HARDWARE BUTTON:
 
+Power, vol enable with ACPIkeyboard and Modify DSDT add device RMKB
 
+Hold Power to show Power menu
+
+press Vol + or - for Volume
+
+<img width="735" alt="Screen Shot 2022-02-23 at 15 51 13" src="https://user-images.githubusercontent.com/100263269/155287192-a0e6e99a-d4c3-49c7-8e6a-e301779465ff.png">
+
+6) OTHER:
+
+Used RDM to customize Hidpi if you want:
+
+<img width="407" alt="Screen Shot 2022-02-23 at 15 56 15" src="https://user-images.githubusercontent.com/100263269/155287726-4b444119-f870-4930-9922-1dbb2d9b222c.png">
+
+Used Refind for Dual boot many system and created Recovery OC backup if you need modify OC original
+
+<img width="924" alt="Screen Shot 2022-02-23 at 16 02 30" src="https://user-images.githubusercontent.com/100263269/155288491-0f5e7982-dd64-496d-b674-903bc388b684.png">
 
 
 
