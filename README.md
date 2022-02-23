@@ -66,4 +66,34 @@ Work Great in Skylake system no freezee, no glit in Hidpi, very stanbility in Ca
 
 <img width="597" alt="Screen Shot 2022-02-23 at 15 15 35" src="https://user-images.githubusercontent.com/100263269/155282388-f74943fd-0047-4f64-9a80-c3d77b52fde3.png">
 
-2) DRIVER BATTERY
+2) DRIVER TRACKPAD:
+
+![Screen Shot 2022-02-23 at 15 28 14](https://user-images.githubusercontent.com/100263269/155284049-fd8b03d8-11a0-4073-87c9-001a8d240f27.png)
+
+Catalina and Bigsur you can used patch VoodooI2C for multitouch trackpad from Bigsadan
+
+<img width="944" alt="Screen Shot 2022-02-23 at 15 29 26" src="https://user-images.githubusercontent.com/100263269/155284305-81d6da4a-8036-4a98-989c-d73a26e56e22.png">
+
+But it not work in Monterey, i found new kext modify from Surface pro 7 : BigSurface.kext (many thank)
+
+<img width="947" alt="Screen Shot 2022-02-23 at 15 32 32" src="https://user-images.githubusercontent.com/100263269/155284590-e2c71424-03f6-49d0-93a5-f3d6a3f7e5d8.png">
+
+3) DRIVER BATTERY
+
+I see from DSDT bigsadan for surfacebook with dual battery, but not good, many error in bootlog and not correct info, i Used ECenable.kext and ACPIbattery from Rebhaman for battery, it work verygood but not detect Charger when plug and unplug, i see when install ECenable, it modify my DSDT and some code will change from devide ADP1, i modifed it to original and AC Adapter work great for remain charg and remain when used battery.
+
+4) POWER MANAGERMENT
+
+With SSDT-DATA + CPUfriend degree CPU default from 1,3 to 900mz, system work for balance enegy and with correct FB Skylake Intel HD 520, work same Macbookpro13,1
+
+AUto Dim when unplug charg and Low Power mode enable
+
+<img width="722" alt="Screen Shot 2022-02-23 at 15 43 23" src="https://user-images.githubusercontent.com/100263269/155286060-033ac748-11d2-4b73-befd-985403ad2b91.png">
+
+
+
+
+
+
+
+
